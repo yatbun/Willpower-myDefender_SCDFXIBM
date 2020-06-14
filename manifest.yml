@@ -1,0 +1,6 @@
+  applications:
+  - name: myDefender
+    random-route: false
+    memory: 128M
+    command: python app.py
+    buildpack: python_buildpack

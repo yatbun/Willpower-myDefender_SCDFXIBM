@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>myDefender</title>
+	<!-- Load TWebRTC adapter.js -->
+	<script src="https://webrtchacks.github.io/adapter/adapter-latest.js"></script>
+	<!-- Load TensorFlow.js -->
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <!-- Load  IBM models -->
+    <script src="https://cdn.jsdelivr.net/npm/@cloud-annotations/models@0.1.1"></script>
+	<!-- Load openCV.js -->
+    <script src="{{ url_for('static', filename='opencv.js') }}" type="text/javascript"></script>
+	<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand">Project Willpower</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/yatbun/willpower-tfjs/" target="_blank">Source Code</a>
+</nav>
+
+<main>
+
+  <div class="main_body">
+    <h1>Let's Identify Some Hazards</h1>
+		<video autoplay id="webcam" width="600" height="450" style = "display:none"></video>
+        <canvas id="outputcanvas" width="600" height="450"></canvas>
+		<section class="button-section test">
+			<button class="button" id="togglebtn">LET'S IDENTIFY</button>
+		</section>
+		<div class="dangers" id = "socket">
+			<h2>Overloaded Socket!</h2>
+			<p>Overloading the socket can cause the socket to overheat and cause a fire!</p>
+		</div>
+		<div class ="dangers" id = "combustible">
+			<h2>Build up of combustible!</h2>
+			<p>Stacks of easily flammable items such as Newspapers, paper boxes etc. can be a potential source for fire!</p>
+		</div>
+		<div class ="dangers" id = "corridor">
+			<h2>Congested Corridor!</h2>
+			<p>The corridor is your passageway to safety during emergencies. Do not store items that would obstruct your escape!</p>
+		</div>
+		<div class ="dangers" id = "cables">
+			<h2>Frayed Cables!</h2>
+			<p>Frayed cables cause the live wires to be exposed and can be vulnerable to electric fires. Do check and replace them regularly!</p>
+		</div>
+		<div class ="dangers" id = "exitsign">
+			<h2>Non-Illuminated Exit Signs!</h2>
+			<p>Exit signs are there to guide us to safety in emergencies. Always ensure that they are illuminated.</p>
+		</div>
+		<div class ="dangers" id ="pails">
+			<h2>Overturn your pails!</h2>
+			<p>Pails are the main source stagnant water and Aedes Mosquito can breed in them. Overturn the pails to protect your family from Dengue!</p>
+		</div>
+		<div class ="dangers" id ="potted_plants">
+			<h2>Clear the water in the plant plates!</h2>
+			<p>Plant plates are commonly neglected as a breeding spot for Aedes Mosquito. Check and clear them now to protect your family from Dengue!</p>
+		</div>
+		<div class ="dangers" id ="fire_extinguisher">
+			<h2>Is your fire extinguisher well maintained?</h2>
+			<p>You wouldn't want your fire extinguisher to fail in a real emergency. Check the label to see if it is serviceable.</p>
+		</div>
+
+        <label for="output" style = "display: none">I detected:</label>
+        <br/>
+        <textarea id="output" name="output" rows="10" cols="50" style = "display: none";></textarea>
+  </div>
+
+</main><!-- /.container -->
+	<!-- Load client.js -->
+<script src="{{ url_for('static', filename='client.js') }}"></script>  
+	<!-- Load boostrap js-->    
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</html>
