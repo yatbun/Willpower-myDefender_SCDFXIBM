@@ -28,8 +28,10 @@
   * [IBM Services](#ibm-services)
   * [Open Source Projects](#open-source-projects)
 
-## Project Description
 
+<br><br>
+
+## About The Team
 <img name="about-us" src="https://i.imgur.com/tHZUxCT.png" width="100%">
 
 ```
