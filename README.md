@@ -28,9 +28,16 @@
   * [IBM Services](#ibm-services)
   * [Open Source Projects](#open-source-projects)
 
+## Project Description
 
 <img name="about-us" src="https://i.imgur.com/tHZUxCT.png" width="100%">
 
+```
+Hi! We are 5 fervent fans of Will.
+We believe that will Will, we will have great power.
+No fear, cos WILLPOWER is here!
+```
+<br><br>
 
 ## Project Description
 
@@ -89,7 +96,7 @@ Check <a href="DETAILED.md">here</a> for a more detailed explanation for our sol
 #### To start working on our code:
 1. Clone our repo.
   ```
-  git clone https://github.com/yatbun/willpower-tfjs.git
+  git clone https://github.com/yatbun/willpower-mydefender_SCDFXIBM.git
   ```
 
 2. Create a virtual environment (optional, but recommended).

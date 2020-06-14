@@ -86,7 +86,7 @@ As an upstream solution which could be emulated in many realms and at different 
 
 ### How It Can Be Used
 
-<b>EXAMPLE 1 (demo):</b>
+<b>EXAMPLE 1 (DEMO):</b>
 <br><br>
 <b>Situation</b>:
 During the recent months of COVID-19, precautionary measures against dengue have played second fiddle to the circuit break measures, resulting in an unfortunate increase in the amount of dengue cases locally.
@@ -99,7 +99,20 @@ The user was able to directly see the threats of dengue within their environment
 
 <br><br>
 
-<b>EXAMPLE 2:</b>
+<b>EXAMPLE 2 (DEMO):</b>
+<br><br>
+<b>Situation</b>:
+Despite the downward trend in household fires, there is still a significant number of household fire calls that are attributed to easily preventable problems, including but definitely not limited to the lack of servicing of fire extinguishers.
+<br><br>
+<b>Response</b>:
+SCDF realises that there is a need to increase checks on potential fire hazards. A new module for the identification of fire hazards is trained and deployed onto the webpage. Users are notified and prompted by the application to scan for these potential hazards, such as the serviceability of the fire extinguishers. They will then be advised on the correct action to be taken ie. inform the relevant authorities.
+<br><br>
+<b>Benefits</b>:
+The user was directly involved in the enforcement of checks in his surroundings and contributes to the upstream solution to make events non-events. This helps to build social responsibility amongst the citizens. Not only will it be timely, but SCDF can potentially use this to reduce the manpower needed for enforcement checks.
+
+<br><br>
+
+<b>EXAMPLE 3 (ANOTHER USE CASE):</b>
 <br><br>
 <b>Situation</b>:
 A batch of a recently-released gadget has been found to have a manufacturing defect, not complying with safety regulations and pose a severe fire risk.
