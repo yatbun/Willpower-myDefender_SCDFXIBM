@@ -130,6 +130,8 @@ Try out a live demo hosted on IBM Cloud Foundry <a href="https://mydefender.mybl
 Available on desktop and mobile!
 <br>
 (Do remember to use _https_!)
+<br>
+(might not work well on iOS)
 
 
 <br><br>
