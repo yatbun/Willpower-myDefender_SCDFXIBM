@@ -126,6 +126,8 @@ python app.py
 
 ## Live Demo
 Try out a live demo hosted on IBM Cloud Foundry <a href="https://mydefender.mybluemix.net/" target="_blank">here</a>!
+Available on desktop and mobile!
+(Do remember to use _https_!)
 
 
 <br><br>
