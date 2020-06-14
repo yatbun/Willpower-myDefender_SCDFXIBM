@@ -23,7 +23,7 @@ body {
 }
 
 .dangers {
-  padding: 5px;
+  padding: 8px;
   outline: 5px solid red;
   background-color: white;
   text-align: justify;
