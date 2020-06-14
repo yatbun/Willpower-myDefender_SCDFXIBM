@@ -29,8 +29,17 @@
   * [Open Source Projects](#open-source-projects)
 
 
+<br><br>
+
+## About The Team
 <img name="about-us" src="https://i.imgur.com/tHZUxCT.png" width="100%">
 
+```
+Hi! We are 5 fervent fans of Will.
+We believe that with Will, we will have great power.
+No fear, cos WILLPOWER is here!
+```
+<br><br>
 
 ## Project Description
 
@@ -89,7 +98,7 @@ Check <a href="DETAILED.md">here</a> for a more detailed explanation for our sol
 #### To start working on our code:
 1. Clone our repo.
   ```
-  git clone https://github.com/yatbun/willpower-tfjs.git
+  git clone https://github.com/yatbun/willpower-mydefender_SCDFXIBM.git
   ```
 
 2. Create a virtual environment (optional, but recommended).
@@ -117,6 +126,8 @@ python app.py
 
 ## Live Demo
 Try out a live demo hosted on IBM Cloud Foundry <a href="https://mydefender.mybluemix.net/" target="_blank">here</a>!
+Available on desktop and mobile!
+(Do remember to use _https_!)
 
 
 <br><br>
