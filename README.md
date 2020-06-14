@@ -54,7 +54,9 @@ Our web app, myDefender, seeks to empower the general public to be directly invo
 
 ## Pitch Video
 
--embed video here-
+Watch our pitch video by clicking on it below: 
+[![Watch the video](https://i.imgur.com/k6fEEUY.gif)](https://www.youtube.com/watch?v=35xUf2ACbfQ)
+Alternatively, use [this](https://www.youtube.com/watch?v=35xUf2ACbfQ).
 
 
 <br><br>
