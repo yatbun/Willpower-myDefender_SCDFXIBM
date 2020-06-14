@@ -35,10 +35,10 @@
 ## Project Description
 
 ### The Problem
-A significant number of fire safety violations and cases of fire arises from poor fire safety practices such as discarding items on the corridor. Singaporeans tend to fall prey to complacency from the safety provided by our efficient Civil Defence Force. Hence, there is a need for us to prevent this spread of complacecy and empower our citizens to practise fire safety actively.
+With the numerous black swan events in the 2020s, we realised the importance of stemming these events in their nascency to prevent them from escalating into large scale events through upstream solutions. However, current measures to involve the public in upstream solutions have its limitations and can be further improved on with technology. Especially with progression in machine learning and AI, we can harness their power to automate tasks which would otherwise require excessive human time, energy and effort, as well as process data on an unprecedented scale.
 
 ### Our Solution
-Our website interfaces with the user's camera and analyse the feed for potential fire hazards. Upon detection, it will warn and advise the user of the correct practices. Thus, citizens can actively practise fire safety.
+Our web app, myDefender, seeks to empower the general public to be directly involved in the upstream solutions. Equipped with the web app, the public can detect and deal with potential hazards that are within their environment, augmenting the role of relevant authorities in enforcement checks. The web app also serves to be a faster and more efficient way of updating the public of new hazards and events. Thus allowing black swan events to be prevented from spreading.
 
 
 <br><br>
