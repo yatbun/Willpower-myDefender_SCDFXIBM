@@ -27,4 +27,5 @@ body {
   outline: 5px solid red;
   background-color: white;
   text-align: justify;
+  display: none;
 }
