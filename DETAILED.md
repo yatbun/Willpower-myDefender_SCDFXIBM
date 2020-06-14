@@ -201,21 +201,21 @@ That said, myDefender is not only an application leveraging on Machine Learning 
 
 ### 4. Deployment of Model
 - Prepare the manifest.yml required by [IBM Cloud Foundry]:
-  <p align="center"><img width="45%" src="https://i.imgur.com/KVWdqpx.png"></p>
+  <p align="center"><img width="45%" src="https://i.imgur.com/X660UyU.png"></p>
 - Push onto [IBM Cloud Foundry]:
-- Clone  the repo and cd to the directory
-- Login to IBMCLOUD:
+  - Clone  the repo and cd to the directory
+  - Login to IBMCLOUD:
+      ```
+    ibmcloud login
+      ```
+  - Target a Cloud Foundry Org:
     ```
-  ibmcloud login
+    ibmcloud target --cf
     ```
-- Target a Cloud Foundry Org:
-  ```
-  ibmcloud target --cf
-  ```
-- Push the app onto IBM Cloud:
-  ```
-  ibmcloud cf push
-  ```
+  - Push the app onto IBM Cloud:
+    ```
+    ibmcloud cf push
+    ```
 
 [Object Detection API]: https://github.com/tensorflow/models/tree/master/research/object_detection
 [Flask]: https://palletsprojects.com/p/flask/
