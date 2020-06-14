@@ -37,6 +37,8 @@
 
 ## Problem Analysis
 
+<b>Problem Statement:</b> 4
+
 ### Current Situation
 Throughout history, there have always been unprecedented events and crises with dire consequences. Recent events such as the COVID pandemic and the unsafe PMD batteries incidents remind us once again that these are possible both on an international and local level. In the past, we have had limited resources to bring change quickly and swiftly to remedy these situations. However, with the advent of rising technology, we are more capable than ever to shorten the action-reaction cycle with regards to such uncertainties. At this stage, we should have the capability to limit these events to non-consequential ones before they blow out of proportion.
 
