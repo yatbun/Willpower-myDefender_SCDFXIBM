@@ -34,7 +34,7 @@
 
 ```
 Hi! We are 5 fervent fans of Will.
-We believe that will Will, we will have great power.
+We believe that with Will, we will have great power.
 No fear, cos WILLPOWER is here!
 ```
 <br><br>
